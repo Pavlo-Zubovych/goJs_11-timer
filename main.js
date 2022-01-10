@@ -16,7 +16,7 @@ class CountdownTimer {
 
   render() {
     const currentDate = Date.now();
-    const time = this.targetData - currentDate;
+    const time = this.targetDate - currentDate;
 
     this.getCountdown(time);
   }
@@ -65,8 +65,8 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2021'),
-  //   targetDate: new Date('Mar 02, 2022'),
+  //   targetDate: new Date('Jul 17, 2021'),
+  targetDate: new Date('Mar 02, 2022'),
 });
 
 function updateTimerView({ days, hours, mins, secs }) {

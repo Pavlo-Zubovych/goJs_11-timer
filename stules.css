@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background: #ec9900;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 45px;
+  margin: 40px 0px 20px;
+}
+
+#timer-1 {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#timer-1 > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #f5f5f5;
+  display: inline-block;
+}
+
+#timer-1 div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #ec9900;
+  display: inline-block;
+}
+
+.field {
+  padding-top: 5px;
+  font-size: 18px;
