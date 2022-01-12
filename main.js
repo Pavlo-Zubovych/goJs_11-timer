@@ -69,10 +69,10 @@ class CountdownTimer {
 const timer = new CountdownTimer({
   selector: '#timer-1',
   //   targetDate: new Date('Jul 17, 2023'),
-  //   targetDate: new Date('Jan 19, 2022 16:20:00'),
-  //   targetDate: new Date('Mar 02, 2022'),
+  targetDate: new Date('Jan 19, 2022 16:20:00'), //Антона
+  // targetDate: new Date('Mar 02, 2022'),
   //   targetDate: new Date('Apr 04, 2022 01:00:00'),
-  targetDate: new Date('oct 10, 2022 07:00:30'),
+  //   targetDate: new Date('oct 10, 2022 07:00:30'),
 });
 
 function updateTimerView({ days, hours, mins, secs }) {
