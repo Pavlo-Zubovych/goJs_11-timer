@@ -1,5 +1,5 @@
-const tzoo = new Date();
-console.log(tzoo);
+// const tzoo = new Date();
+// console.log(tzoo);
 
 const refs = {
   days: document.querySelector('[data-value="days"]'),
